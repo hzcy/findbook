@@ -3,7 +3,7 @@
 $url = "https://hueyan.herokuapp.com/users/1/web_requests/57/a-secret-key.json";
   $html = getRequest($url);
   $data = json_decode($html,ture);
-$data = $data=>items;
+$data = $data['items'];
 print_r($data);
 
 function getRequest($url){
