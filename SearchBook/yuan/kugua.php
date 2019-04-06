@@ -43,15 +43,15 @@ $notes = "";
                $title = str_replace("\r\n","",$title);
             if($title!=null&&strpos($title,$query) !== false)
             {
-                if($content=="home")
-              {
+            //     if($content=="home")
+            //   {
                  
-                  if($b>3)
-                  {
+            //       if($b>3)
+            //       {
                      
-                      break;
-                  }
-              }
+            //           break;
+            //       }
+            //   }
                 $note["title"]=$title;
                 $note["link"]=$link;
                 $notes[$i++]=$note;
