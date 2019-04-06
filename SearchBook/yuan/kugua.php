@@ -31,15 +31,7 @@ $notes = "";
          foreach($arr2 as $v){ 
              $b++; 
              //echo $content;
-              if($content=="home")
-              {
-                 
-                  if($b>3)
-                  {
-                     
-                      break;
-                  }
-              }
+              
                $link =  $v->getAttr("href");
                if(strpos($link,'http') !== false){ 
                 
@@ -51,6 +43,15 @@ $notes = "";
                $title = str_replace("\r\n","",$title);
             if($title!=null&&strpos($title,$query) !== false)
             {
+                if($content=="home")
+              {
+                 
+                  if($b>3)
+                  {
+                     
+                      break;
+                  }
+              }
                 $note["title"]=$title;
                 $note["link"]=$link;
                 $notes[$i++]=$note;
