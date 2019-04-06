@@ -5,7 +5,7 @@ echo '
 {
 
 "data":[
-{"name":"bookset","link":"/yuan/bookset.php"},
+
 {"name":"kindleshare","link":"/yuan/kindleshare.php"},
 {"name":"周读","link":"/yuan/ireadweek.php"}
 ]
