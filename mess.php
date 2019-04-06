@@ -1,7 +1,9 @@
 <?php
  header("Content-type: text/html; charset=utf-8");
 $url = "https://hueyan.herokuapp.com/users/1/web_requests/57/a-secret-key.json";
-echo  $html = getRequest($url);
+  $html = getRequest($url);
+  echo substr($html,0,strpos($html, '['))
+
 
 function getRequest($url){
     
