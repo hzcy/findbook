@@ -7,7 +7,8 @@ echo '
 "data":[
 
 {"name":"kindleshare","link":"/yuan/kindleshare.php"},
-{"name":"周读","link":"/yuan/ireadweek.php"}
+{"name":"周读","link":"/yuan/ireadweek.php"},
+{"name":"胖虎书屋","link":"/yuan/panghu.php"}
 ]
 }
 ';
