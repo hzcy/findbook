@@ -14,8 +14,7 @@ echo '
 {"name":"kindleshare","link":"https://sk.kindleshare.cn","show":1},
 {"name":"周读","link":"http://www.ireadweek.com/","show":1},
 
-{"name":"盘搜搜","link":"http://www.pansoso.com/","show":1},
-{"name":"胖虎书屋","link":"http://www.panghubook.cn","show":1}
+{"name":"盘搜搜","link":"http://www.pansoso.com/","show":1}
 
 ]
 }
